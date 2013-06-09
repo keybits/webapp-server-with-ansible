@@ -1,0 +1,17 @@
+---
+
+- hosts: garnish
+  user: tom
+  sudo: yes
+  sudo_user: postgres
+
+  tasks:
+    - name: create a test database user
+      action: postgresql_user user=testuser password=test1ng
+
+    - name: create test database
+      action: postgresql_db name=test_ansible_db owner=testuser
+
+  handlers:
+    - name: restart postgresql
+      action: service name=postgresql state=restarted
