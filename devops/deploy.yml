@@ -6,7 +6,7 @@
 
   vars:
     app_name: hello_flask
-    repo_url: https://github.com/mattupstate/ansible-tutorial.git
+    repo_url: https://github.com/knitatoms/webapp-server-with-ansible.git
     repo_remote: origin
     repo_version: master
     webapps_dir: /srv/webapps
