@@ -10,7 +10,7 @@
     repo_remote: origin
     repo_version: master
     webapps_dir: /srv/webapps
-    wsgi_file: wsgi.py
+    wsgi_file: app.py
     wsgi_callable: app
 
   tasks:
