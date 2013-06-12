@@ -60,7 +60,3 @@ Make sure you can still log in before clossing the SSH session.
 This will set up a basic Flask application to run via Supervisor using uWSGI and Nginx.
 
 2. Visit `http://[yourhost]` and you should see the application running.
-
-
-
-## Using the
